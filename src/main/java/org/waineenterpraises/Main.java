@@ -22,7 +22,6 @@ public class Main {
         System.out.println("d++   = " +  (d++));
         System.out.println("++d   = " +  (++d));
 
-
         boolean x = true;
         boolean y = false;
         boolean result = 5>=3;
@@ -31,7 +30,6 @@ public class Main {
         boolean result2 = x && x && y;
         boolean result3 = x || x || y;
         boolean result4 = y || y || x;
-
 
         //логические операторы и операторы сравнения
         System.out.println(result0);
@@ -42,7 +40,6 @@ public class Main {
         System.out.println("x && x && y " + result2);
         System.out.println("x || x || y " + result3);
         System.out.println("y || y || x " + result4);
-
 
         float f1 = 14.56f;
         double d1 = 15.7;
@@ -67,6 +64,5 @@ public class Main {
         System.out.println((byte) (b1 + b2));
         System.out.println(i1 + i2);
         System.out.println((short) (s1 + s2));
-
     }
 }
