@@ -9,7 +9,6 @@ public class Main {
         int c = 25;
         int d = 25;
 
-
         //математические операторы
         System.out.println("a + b = " + (a + b));
         System.out.println("a - b = " + (a - b));
@@ -24,16 +23,15 @@ public class Main {
         System.out.println("++d   = " +  (++d));
 
 
-
         boolean x = true;
         boolean y = false;
         boolean result = 5>=3;
         boolean result0 = 5<=3;
-
         boolean result1 = x && x && x;
         boolean result2 = x && x && y;
         boolean result3 = x || x || y;
         boolean result4 = y || y || x;
+
 
         //логические операторы и операторы сравнения
         System.out.println(result0);
@@ -44,7 +42,6 @@ public class Main {
         System.out.println("x && x && y " + result2);
         System.out.println("x || x || y " + result3);
         System.out.println("y || y || x " + result4);
-
 
 
         float f1 = 14.56f;
@@ -58,7 +55,6 @@ public class Main {
         int i2 = 2147483600;
         int i3 = 15892;
 
-
         //вычисление разных типов данных
         System.out.println(d1 + l1);
         System.out.println(d1 + i3);
@@ -71,16 +67,6 @@ public class Main {
         System.out.println((byte) (b1 + b2));
         System.out.println(i1 + i2);
         System.out.println((short) (s1 + s2));
-
-
-
-
-
-
-
-
-
-
 
     }
 }
